@@ -1,0 +1,50 @@
+<!-- add by lijingwei@wind-mobi.com 20160119 for Feature#96017 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout android:id="@+id/layout_one" android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/back_home_menu" android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:src="@drawable/menu_back_h" />		
+        <TextView android:id="@+id/layout_one_textView" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_layout_left"
+            android:layout_marginTop="@dimen/text_layout_top" 
+            android:textSize="@dimen/text_layout_size"
+            android:text="@string/key_layout_one" />
+            		
+        <TextView android:id="@+id/tv_key_back"  android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="138dp" android:layout_marginTop="@dimen/text_key_top"
+            android:text="@string/key_back" android:textSize="@dimen/text_key_size" />
+        <TextView android:id="@+id/tv_key_home" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="193dp" android:layout_marginTop="@dimen/text_key_top"
+            android:text="@string/key_home" android:textSize="@dimen/text_key_size" />
+        <TextView android:id="@+id/tv_key_menu" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp" android:layout_marginTop="@dimen/text_key_top"
+            android:text="@string/key_menu" android:textSize="@dimen/text_key_size" />
+
+    </FrameLayout>
+
+    <FrameLayout android:id="@+id/layout_two" android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/menu_home_back" android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:src="@drawable/back_menu_g" />
+        <TextView android:id="@+id/layout_two_textView" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_layout_left"
+            android:layout_marginTop="@dimen/text_layout_top" 
+            android:textSize="@dimen/text_layout_size"
+            android:text="@string/key_layout_two" />
+            
+			  <TextView android:id="@+id/tv_key_menu2" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="138dp" android:layout_marginTop="@dimen/text_key_top"
+            android:text="@string/key_menu" android:textSize="@dimen/text_key_size" />
+        <TextView android:id="@+id/tv_key_home2" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="193dp" android:layout_marginTop="@dimen/text_key_top"
+            android:text="@string/key_home" android:textSize="@dimen/text_key_size" />
+        <TextView android:id="@+id/tv_key_back2" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp" android:layout_marginTop="@dimen/text_key_top"
+            android:text="@string/key_back" android:textSize="@dimen/text_key_size" />
+    </FrameLayout>
+
+</LinearLayout>
+<!-- add by lijingwei@wind-mobi.com 20160119 for Feature#96017 -->

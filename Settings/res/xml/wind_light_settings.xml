@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+    <!--hanweiwei@wind-mobi.com add for feature#102488 2016-04-13 begin-->
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+        android:title="@string/wind_ligths">
+
+        <SwitchPreference
+            android:key="wind_charging"
+            android:title="@string/battery_stats_charging_label"
+            android:persistent="false"/>
+
+        <SwitchPreference
+            android:key="wind_low_battery"
+            android:title="@string/wind_low_battery"
+            android:persistent="false"/>
+
+        <SwitchPreference
+            android:key="wind_missed_message"
+            android:title="@string/wind_missed_message"
+            android:persistent="false"/>
+
+    </PreferenceScreen>
+    <!--hanweiwei@wind-mobi.com add for feature#102488 2016-04-13 end-->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- chusuxia@wind-mobi.com 20160122 add for SDCARD update start -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/software_updates">		
+        <PreferenceScreen android:key="system_update_settings"
+                android:title="@string/system_update_settings_list_item_title"
+                android:summary="@string/system_update_settings_list_item_summary">
+            <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+        </PreferenceScreen>
+        <PreferenceScreen android:key="ztefota_software_update"
+                          android:title="@string/system_update_settings_list_item_title">
+            <intent android:targetPackage="com.zte.zdm"
+                    android:targetClass="com.zte.zdm.application.mmi.MainActivity"/>
+        </PreferenceScreen>
+        <PreferenceScreen android:key="sdcard_updates"
+            android:title="@string/sdcard_updates_title"
+            android:summary="@string/sdcard_updates_summary">
+            <intent android:targetPackage="com.android.settings"
+                    android:targetClass="com.android.settings.deviceinfo.SDCardUpdates" />
+        </PreferenceScreen>
+</PreferenceScreen>
+ <!-- chusuxia@wind-mobi.com 20160122 add for SDCARD update end -->

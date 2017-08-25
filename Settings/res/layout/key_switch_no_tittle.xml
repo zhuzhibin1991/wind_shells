@@ -1,0 +1,19 @@
+<!-- add by xushuhao@wind-mobi.com 20160508 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout android:id="@+id/layout_one" android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/back_home_menu" android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:src="@drawable/menu_back_h" />		
+    </FrameLayout>
+
+    <FrameLayout android:id="@+id/layout_two" android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/menu_home_back" android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:src="@drawable/back_menu_g" />
+    </FrameLayout>
+
+</LinearLayout>
+<!-- add by xushuhao@wind-mobi.com 20160508 -->

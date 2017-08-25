@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- add by liuqiong@wind-mobi.com 2016-02-18 begin-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:oneshot="true">
+    <item android:drawable="@drawable/gesture_w3" android:duration="120"/>
+    <item android:drawable="@drawable/gesture_w5" android:duration="120"/>
+    <item android:drawable="@drawable/gesture_w7" android:duration="120"/>
+    <item android:drawable="@drawable/gesture_w11" android:duration="120"/>
+    <item android:drawable="@drawable/gesture_w13" android:duration="120"/>
+    <item android:drawable="@drawable/gesture_w15" android:duration="120"/>
+    <item android:drawable="@drawable/gesture_w19" android:duration="120"/>
+    <item android:drawable="@drawable/gesture_w21" android:duration="120"/>
+</animation-list>
+<!-- add by liuqiong@wind-mobi.com 2016-02-18 end-->

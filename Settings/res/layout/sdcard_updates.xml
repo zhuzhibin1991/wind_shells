@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- add by chusuxia@wind-mobi.com for SD update on 160308 start -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<!-- songmeiling@wind-mobi.com 2016/03/14 modify start -->
+    <!--<Button
+		android:id="@+id/updates_check"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/sd_updates_check"
+		android:textSize="16sp"
+		android:background="#BBD32F2F"/>-->
+    <Button
+        android:id="@+id/updates_check"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sd_updates_check"
+		android:padding="16dp"
+        android:textSize="16sp"/>
+    <!-- songmeiling@wind-mobi.com 2016/03/14 modify end -->
+		
+	<TextView
+		android:id="@+id/updates_info"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:padding="20dp"
+		android:gravity="center"
+		android:text="@string/sd_updates_warn"
+		android:textSize="16sp" />
+		
+	<Button
+		android:id="@+id/updates_system"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/sd_updates_confirm"
+		android:textSize="16sp"
+		android:visibility="invisible"
+		android:background="#BBD32F2F"/>
+		
+</LinearLayout>
+<!-- add by chusuxia@wind-mobi.com for SD update on 160308 end -->
